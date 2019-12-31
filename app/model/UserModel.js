@@ -5,7 +5,7 @@ let UserSchema = new Schema({
     phone: { type: String, required: true },
     pwd: { type: String, required: true },
     username: { type: String },
-    join_time: { type: Date, require: true, default: Date.now },
+    join_time: { type: Date, require: true, default: Date.now() },
     person_profile: { type: String },
     sex: { type: Boolean },
     birthday: { type: Date },
